@@ -1,0 +1,86 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.team-logo {
+    height: 200px;
+    width: 200px;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.kyoto-logo {
+    background-color: #6c1d45;
+    padding: 20px;
+}
+
+.kashiwa-logo {
+    background-color: #ffcc00;
+    padding: 20px;
+}
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-header {
+    font-weight: bold;
+}
+
+.border-bottom {
+    border-color: #6c1d45 !important;
+    border-width: 3px !important;
+}
+
+.display-1 {
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+footer {
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* チームカラー */
+.text-primary {
+    color: #6c1d45 !important; /* 京都サンガカラー */
+}
+
+.bg-primary {
+    background-color: #6c1d45 !important; /* 京都サンガカラー */
+}
+
+.text-warning {
+    color: #ffcc00 !important; /* 柏レイソルカラー */
+}
+
+.bg-warning {
+    background-color: #ffcc00 !important; /* 柏レイソルカラー */
+    color: #000 !important;
+}
+
+/* レスポンシブ調整 */
+@media (max-width: 768px) {
+    .team-logo {
+        height: 150px;
+        width: 150px;
+    }
+    
+    .display-1 {
+        font-size: 3.5rem;
+    }
+}
